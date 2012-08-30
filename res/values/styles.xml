@@ -1,0 +1,55 @@
+<resources>
+
+    <style name="Theme.Styled" parent="@style/Theme.Sherlock.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+    </style>
+    
+    <style name="Theme.VPI" parent="Theme.Styled">
+        <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+    </style>
+    
+    <style name="Widget.Styled.ActionBar" parent="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="titleTextStyle">@style/TitleText</item>
+        <item name="android:titleTextStyle">@style/TitleText</item>
+    </style>
+    <!-- 
+     -->
+    
+    <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:textSize">10dip</item>
+        <item name="android:textColor">#FFB33E3E</item>
+    </style>
+
+    <style name="TitleText" >
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textSize">10dip</item>
+    </style>
+    
+    
+    
+    
+    <!-- 
+    ######################################################
+    #                                                    #
+    #                TitlePageIndicator                  #
+    #                                                    #
+    ######################################################
+     -->
+    
+    <style name="AbsVpiTheme" parent="@style/Theme.Sherlock">
+        <item name="vpiTitlePageIndicatorStyle">@style/CustomTitlePageIndicator</item>
+    </style>
+    
+    <style name="CustomTitlePageIndicator">
+        <item name="android:background">#18FF0000</item>
+        <item name="footerColor">#FFAA2222</item>
+        <item name="footerLineHeight">1dp</item>
+        <item name="footerIndicatorHeight">3dp</item>
+        <item name="footerIndicatorStyle">underline</item>
+        <item name="android:textColor">#AA000000</item>
+        <item name="selectedColor">#FF000000</item>
+        <item name="selectedBold">true</item>
+    </style>
+    
+</resources>
